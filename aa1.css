@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    border: 1px solid black;
+    background-color: #A89284;
+    height: 6vh;
+}
+.navlinks{
+    float: right;
+}
+.navlinks a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+}
+.navlink{
+    display: inline-block;
+    margin-top: 0.85vh;
+    margin-right: 3vw;
+    margin-left: 2vw;
+}
+.logo{
+    display: inline-block;
+}
+.logo img{
+    margin-top: 0.5vh;
+    margin-left: 3vh;
+    height: 5vh;
+    width: 5vh;
+}
+.banner{
+    background-image: url(images/bannerimg.jpg);
+    width: 100%;
+    height: 85vh;
+}
+.bannertext{
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    color: rgb(107, 61, 0);
+}
+.bannertext h2{
+    font-size: 3em;
+    font-family: 'Roboto Slab', serif;
+}
+.bannertext span{
+    color: antiquewhite;
+}
+.bannertext p{
+    color: bisque;
+    font-family: 'Playfair Display', serif;
+}
+.bannertext a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    background-color: beige;
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: 5px;
+    font-family: 'Pacifico', cursive;
+    text-transform: uppercase;
+}
+.bannertext a:hover{
+    opacity: 1;
+    transition: .4s;
+    padding: 20px;
+}
+.container{
+    display: inline-block;
+    height: 85vh;
+}
+.title{
+    margin-left: 4vw;
+    margin-top: 3vh;
+    font-size: x-large;
+    font-family: 'Playfair Display', serif;
+}
+.gallery{
+    margin-top: 8vh;
+}
+.galleryimg img{
+    height: 30vh;
+    width: 15vw;
+}
+.lefthalf{
+    display: inline-block;
+    margin-left: 15vw;
+}
+.midhalf{
+    display: inline-block;
+    margin-left: 12vw;
+}
+.righthalf{
+    display: inline-block;
+    margin-left: 12vw;
+}
+.footer{
+    display: inline-block;
+    background-color: rgb(212, 180, 138);
+    width: 100vw;
+    height: 8.6vh;
+}
+.sublinks{
+    float: right;
+    position: relative;
+    right: 3vw;
+    bottom: 2vh;
+}
+.sublink{
+    display: inline-block;
+}
+.sublink img{
+    height: 3vh;
+    width: 3vw;
+}
+#copyright{
+    margin-top: 2.5vh;
+    margin-left: 2vw;
+    font-family: 'Crimson Text', serif;
+}
